@@ -1,10 +1,12 @@
 .nav{
     background-color: blanchedalmond;
     display: flex;
-     /* flex-wrap: wrap;  */
-    justify-content: space-around;
-    flex-direction: row;
-    margin-bottom: 50px;}
+     flex-wrap: wrap;  
+    justify-content: center;
+    flex-direction: row; 
+    margin-bottom: 50px;
+    gap: 70px;
+}
    
  body{
      background-size: cover;} 
@@ -12,11 +14,14 @@
  header{
     background-image: url(../images/background.jpeg);
     height: 250px;
-    width: auto;
+    width: 600px;
     padding: 20px;} 
 
 .all{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid paleturquoise;
    
     /* flex-direction: row; */
     }
@@ -38,3 +43,15 @@
     .nav img{border-radius: 50%;
     height: 55px;
 width: 55px;}
+
+.img2 img{
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    
+}
+
+h3{
+    justify-content: right;
+    text-align: center;
+}
