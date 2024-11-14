@@ -1,11 +1,21 @@
 .nav{
-    background-color: blanchedalmond;
-    display: flex;
-     flex-wrap: wrap;  
-    justify-content: center;
-    flex-direction: row; 
+    background-color: blanchedalmond; 
     margin-bottom: 50px;
     gap: 70px;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;  
+   justify-content: space-between;
+   flex-direction: row;
+   /* background-color: aliceblue; */
+   padding: 20px 0 0 0;
+   list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
 }
    
  body{
